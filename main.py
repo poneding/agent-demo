@@ -17,7 +17,6 @@ agent = Agent(
     model=model,
     system_prompt="You are an expert in Python programming.",
     tools=[say_hello],  # Add your tools here, generally a list of functions
-    # history=history_messages,
 )
 
 
